@@ -1,0 +1,14 @@
+hostname: rancheros-test-1
+rancher: 
+  network:
+    interfaces:
+      eth0:
+	      address: 192.168.0.50
+	      gateway: 192.168.0.1
+	      dhcp: false
+    dns:
+      nameservers:
+        - 1.1.1.3
+        - 8.8.4.4
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwi+HZHjxFKyDqnXhr1zhUBjxNSd6hBSMGDDojraPRGZA6jhm72aj1dUoQtKG2/G0wO+i1eLekgE2xzncDupQaTXbcM78BIFBifrtk2SsRjuEHOYMxrOurlcmWK2kcu3IMRID9p02x/n8MpH7JhNuyOKyOlAEBsS+a2yso0JPRR5AXunbGyIzqH4V6F4LVolEUhc9FWuQxTkFF8zn7gBhqienOPpNk8F1tDaI7kesWBLBEyFOcGvwm2tZ7AB6YwzeZcLaGnV/bGf7iK8egRkGbQ9BB1MmKxVzU+VcY85EYfJo6xqPNZ3m+02ZzW1PLEpG6HFcCtIzzrF6WWxsBo5Mr nick@rancher
